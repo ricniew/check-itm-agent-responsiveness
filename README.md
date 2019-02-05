@@ -66,7 +66,5 @@ Following PERL packages are used and needs to be available
 2 Installation and Usage
 ========================
 
-Please refer to the Wiki https://github.com/ricniew/check-itm-agent-responsiveness/wiki
-
-
+Please refer to the [Wiki](https://github.com/ricniew/check-itm-agent-responsiveness/wiki)
 
