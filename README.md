@@ -19,7 +19,6 @@ Revision: 0.1
 
 [2 Installation and Usage ](#2-installation-and-usage)
 
-[2.1 Supported Operating System](#supported-operating-system)
 
 #
 
