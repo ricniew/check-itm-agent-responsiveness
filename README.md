@@ -17,22 +17,9 @@ Revision: 0.1
 
 [4 Prerequisites](#4-prerequisites)
 
-[2 Installation](#2-installation-script-only)
+[2 Installation and Usage ](#2-installation-and-usage)
 
 [2.1 Supported Operating System](#supported-operating-system)
-
-[2.2 Preparation](#preparation)
-
-[3 Usage](#3-usage)
-
-[3.1 Syntax](#syntax)
-
-[3.2 Sample executions for Configuration](#sample-executions)
-
-[4 Troubleshooting](#4-troubleshooting)
-
-[5 Appendixes](#5-appendixes)
-
 
 #
 
@@ -77,79 +64,10 @@ Following PERL packages are used and needs to be available
        >use Time::Local;
        >use Sys::Hostname;
 
-2 Installation script only
-==========================
+2 Installation and Usage
+========================
 
-Download the latest release of the script [here](https://github.com/ricniew/ibm-itcam-silent-config/releases) and unzip to a temporary directory on the host were your ITCAM Agent\+Datacollector and WebSPhere server are running. It
-contains following files:
-
--   one ..
-
--   two ...
-
-Supported Operating System
---------------------------
-
-Procedure was tested on Windows and Linux Redhat + Suse but should run on other
-UNIX and Linux Operating systems. 
-
-Preparation
------------
-
-The created response files contains configuration options which are
-valid for the most popular set up with a DC monitoring a WebSphere
-instance. For the authentication client SOAP properties are used.
-**Please check below for possible changes you may need to perform.**
-Always check the created response file if it meets your required set up.
-<br/>  
- 
-1.  **Text:**
-
-       -   text *itme1*
-
-       -   text *itme2*
-
-       -   Integration of the DC with the *Tivoli Performance Monitoring*
-
-       -   Integration of the DC with the *ITCAM Diagnostics Tool*
-
-       -   Integration of the data collector with *ITCAM Agent for WebSphere version 6* (for Version 7.3 only)
-
-     If you would like to use any of that options the procedure must be
-     modified and the function *CreateConfigRespFile* needs to be adjusted
-     with the required options to be used (modify *False* to *True*)
-
-       > \# bla \
-       > bla
-       > 
-
-<br/>   
-
-2.  **Text:**
-
-       -  text *itme1*
-
-3 Usage
-=======
-
-Syntax
-------
-
-> xxxxxxxxxxxxxxxxx{ -h ITM home } \[ -p \]\
-
-          
-Sample executions
------------------
-
-bla
-
-4 Troubleshooting
-=================
-
-
-5 Appendixes
-============
+Please refer to the Wiki
 
 
 
-bla
