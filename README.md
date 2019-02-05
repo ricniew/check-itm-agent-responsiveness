@@ -53,7 +53,9 @@ UNIX and Linux Operating systems.
 4 Prerequisites
 ===============
 
-Following PERL packages are used and needs to be available
+PERL needs to be installed on the computer where this tool is going to be used.
+
+Following PERL packages are used and needs to be available:
 
        >use LWP::UserAgent;
        >use XML::Simple;
