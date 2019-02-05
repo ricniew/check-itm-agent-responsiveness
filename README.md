@@ -67,8 +67,15 @@ UNIX and Linux Operating systems.
 4 Prerequisites
 ===============
 
-Procedure was tested on Windows and Linux Redhat + Suse but should run on other
-UNIX and Linux Operating systems.
+Following PERL packages are used and needs to be available
+
+       >use LWP::UserAgent;
+       >use XML::Simple;
+       >use Getopt::Long;
+       >use Data::Dumper;
+       >use File::Basename;
+       >use Time::Local;
+       >use Sys::Hostname;
 
 2 Installation script only
 ==========================
