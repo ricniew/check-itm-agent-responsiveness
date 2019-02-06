@@ -40,7 +40,7 @@ The heart of this tool is a simple Perl script. Mainly doing the following:
    - Creating an agent status list before real time data request 
    - Retrieve real-time data from the agents 
    - Creating an agent status list again
-   - Check for which agents no data have been returned and reporting those agents to STDOUT and/or into file.
+   - Check for which agents no data have been returned and reporting those agents to STDOUT and into a file.
 
 
 3 Supported Operating System
