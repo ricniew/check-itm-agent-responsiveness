@@ -33,14 +33,21 @@ This solution will help you to monitor not-responsive agents and avoid manual wo
 
 2 How it works
 ==============
+This solution can be used in two ways.
+1. Script only mode
+    A script is executed manualy. Results are written to STDOUT and files. Details can be found here [Wiki](https://github.com/ricniew/check-itm-agent-responsiveness/wiki/Installation-and-usage-Script-Only)
 
-The heart of this tool is a simple Perl script. Mainly doing the following:
+1. IBM Agent Builder custom agent
+
+    The heart of this tool is a simple Perl script. Mainly doing the following:
 
    - Using SOAP to connect to the IBM HUB Server
    - Creating an agent status list before real time data request 
    - Retrieve real-time data from the agents 
    - Creating an agent status list again
    - Check for which agents no data have been returned and reporting those agents to STDOUT and into a file.
+
+    Details can be found here [Wiki](https://github.com/ricniew/check-itm-agent-responsiveness/wiki/Installation-and-usage-Agent-Builder-Custom-Agent)
 
 
 3 Supported Operating System
