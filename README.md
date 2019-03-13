@@ -29,7 +29,7 @@ Sometime in IBM Tivoli Monitoring (ITM), agents that are reported to be online a
 
 Mostly you are alerted by your application administrators or customers that they did not get any event for their business application, even an ITM sitution was set up to monitor a specific condition. Usualy you check agent's health by a Tivoli Enterprise Portal real time data request, for example a disk usage report. If the agent goes off line after such request, you start it again. If it remains on line, but no data is returned, your next action would be to check the logs and restart agent for quick problem resolution. After agent restart you will probably execute several tests to verify agent's behavior. All of the tests will mostly be successfull and issue appears to be solved. However, it remains an insecure feeling because you do not know when and where the problem reoccurs. 
 
-This solution will help you to monitor not-responsive agents and avoid manual work to find those agents before hand. It can be used in two different ways *Standalone script* or *Agent Builder Custom Agent*.
+This solution ([download](https://github.com/ricniew/check-itm-agent-responsiveness/releases)) will help you to monitor not-responsive agents and avoid manual work to find those agents before hand. It can be used in two different ways *Standalone script* or *Agent Builder Custom Agent*.
 
 2 How it works
 ==============
