@@ -34,8 +34,7 @@ This solution ([download](https://github.com/ricniew/check-itm-agent-responsiven
 2 How it works
 ==============
 This solution can be used in two ways.
-1. Script only mode
-    A script is executed manualy. Results are written to STDOUT and files. Details can be found here [Wiki](https://github.com/ricniew/check-itm-agent-responsiveness/wiki/Installation-and-usage-Script-Only)
+1. Script only mode: A script is executed manualy. Results are written to STDOUT and files. Details can be found here [Wiki](https://github.com/ricniew/check-itm-agent-responsiveness/wiki/Installation-and-usage-Script-Only)
 
 1. IBM Agent Builder custom agent
 
